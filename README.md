@@ -17,7 +17,9 @@ Users can...
 
 ### License
 
+### Proposal
 
+The project's proposal can be found <a href="Proposal.md">here</a>
 
 ## Acknowledgments
 
