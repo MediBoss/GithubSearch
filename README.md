@@ -1,6 +1,6 @@
-# BEW 1.3 Custom project
+# GithubSearch
 
-### Overview & Mission Statement
+### Overview
 
 
 ### Features
