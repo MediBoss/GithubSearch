@@ -15,6 +15,8 @@ Users can...
 
 ### Project Built With
 
+* Django
+* Github API
 
 ### License
 
