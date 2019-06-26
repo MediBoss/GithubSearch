@@ -1,5 +1,19 @@
-<!-- <div class="md-form active-cyan-2 mb-3">
-    <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-  </div> -->
+ 
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Github Search</title>
+  </head>
+  <body>
+    
+    <form class="search" action="{% url 'search' %}" method="POST">
+        {% csrf_token %}
+        <input type="search" placeholder="Search here..." name="user_query" value='{{ query }}' required>
+        <button type="submit">Search</button>
+    </form>
 
-  <h1>hi</h1>
+  </body>
+  </html>
