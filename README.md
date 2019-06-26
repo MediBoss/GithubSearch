@@ -1,6 +1,7 @@
 # GithubSearch
 
 ### Overview
+GithubSearch is the final project for my Backend 1.3 class that integrates Github's V3 API to provide a google-like search engine for github users.
 
 
 ### Features
