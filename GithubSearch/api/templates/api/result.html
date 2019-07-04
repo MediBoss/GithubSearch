@@ -1,0 +1,14 @@
+ 
+  {% load static %}
+
+  <link rel="stylesheet" type="text/css" href="{% static 'api/style.css' %}">
+
+  <h1>Results</h1>
+
+    <ul>
+        {% for user in results %}
+            <li><a href={{user.html_url}}>{{ user.login }}</a></li>
+        {% endfor %}
+    </ul>
+
+

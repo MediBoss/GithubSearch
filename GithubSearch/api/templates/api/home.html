@@ -1,4 +1,7 @@
  
+  {% load static %}
+
+  <link rel="stylesheet" type="text/css" href="{% static 'api/style.css' %}">
   <!DOCTYPE html>
   <html lang="en">
   <head>
@@ -9,6 +12,7 @@
   </head>
   <body>
     
+    <h1 class="title">Github Search</h1>
     <form class="search" action="{% url 'search' %}" method="POST">
         {% csrf_token %}
         <input type="search" placeholder="Search here..." name="user_query" value='{{ query }}' required>
