@@ -1,1 +1,1 @@
-web: gunicorn GithubSearch:api
+web: gunicorn GithubSearch:api --log-file -
