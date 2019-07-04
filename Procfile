@@ -1,1 +1,1 @@
-web: gunicorn GithubSearch.wsgi
+web: gunicorn GithubSearch:api
